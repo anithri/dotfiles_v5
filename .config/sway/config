@@ -32,7 +32,3 @@ include $HOME/.config/sway/config.d/*.conf
 include ~/.config/sway/outputs
 include ~/.config/sway/workspaces
 
-input "1118:219:Microsoft_Natural___Ergonomic_Keyboard_4000" {
-  xkb_layout "us"
-  xkb_options "caps:super"
-}
