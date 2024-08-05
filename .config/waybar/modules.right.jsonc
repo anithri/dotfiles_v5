@@ -1,0 +1,28 @@
+{
+  "clock": {
+    "format": "{:%H:%M  %Y-%m-%d}",
+    "tooltip": true,
+    "tooltip-format": "{:%Y-%m-%d %H:%M}",
+    "interval": 5,
+    "on-click": "swaymsg exec \\$calendar"
+  },
+  "sway/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": false
+  },
+  "custom/wlsunset": {
+    "interval": "once",
+    "tooltip": true,
+    "tooltip-format": "{tooltip}",
+    "return-type": "json",
+    "format": "{icon}",
+    "format-icons": {
+      "on": "",
+      "off": ""
+    },
+    "exec": "fallback_latitude=50.1 fallback_longitude=8.7 latitude=40.59 longitude=104.71 /usr/share/sway/scripts/sunset.sh",
+    "on-click": "/usr/share/sway/scripts/sunset.sh toggle; pkill -RTMIN+6 waybar",
+    "exec-if": "/usr/share/sway/scripts/sunset.sh check",
+    "signal": 6
+  }
+}
