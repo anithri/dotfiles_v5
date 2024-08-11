@@ -1,0 +1,14 @@
+# Gentoo keychain
+keychain ~/.ssh/github_ed25519
+
+# autojump
+. /usr/share/autojump/autojump.zsh
+
+# direnv
+eval "$(direnv hook zsh)"
+
+# starshipt prompt
+eval "$(starship init zsh)"
+
+# asdf
+. $HOME/.asdf/asdf.sh

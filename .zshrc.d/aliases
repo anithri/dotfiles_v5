@@ -1,0 +1,15 @@
+alias df="df -H"
+alias du="du -ch"
+alias ls="ls --color=auto"
+alias ll="ls -l --color=auto"
+alias lll="ls -al --color=auto"
+alias la="ls -a --color=auto"
+alias apud="sudo apt-get dist-upgrade"
+alias apu='sudo apt-get update'
+alias apuapu='apu && sudo apt-get upgrade'
+alias apuapud='apu && sudo apt-get dist-upgrade'
+alias grep='grep --color'
+alias ..='cd ../'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
